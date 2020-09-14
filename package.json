@@ -33,5 +33,9 @@
     "hooks": {
       "pre-commit": "npm run prettier-format && npm run lint"
     }
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
   }
 }
